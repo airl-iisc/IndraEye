@@ -1,4 +1,4 @@
-<div align="center">
+<div>
 
 # IndraEye: Infrared Electro-Optical Drone-based Aerial Object Detection Dataset
 
