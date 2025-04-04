@@ -11,7 +11,7 @@ Domain-adaptive thermal object detection plays a key role in facilitating visibl
 
 <div>
 
-## IndraEye: Infrared Electro-Optical Drone-based Aerial Object Detection Dataset
+### IndraEye: Infrared Electro-Optical Drone-based Aerial Object Detection Dataset
 
 
 [Manjunath D](https://scholar.google.com/citations?user=379B-doAAAAJ&hl=en), [Aniruddh Sikdar](https://scholar.google.com/citations?user=FdgpBuoAAAAJ&hl=en&authuser=1), [Prajwal Gurunath](https://scholar.google.com/citations?user=1D-q8wwAAAAJ&hl=en&oi=ao), [Sumanth Udupa](https://scholar.google.com/citations?user=d3cLdNoAAAAJ&hl=en&oi=ao), [Suresh Sundaram](https://scholar.google.com/citations?user=5iAMbhMAAAAJ&hl=en&authuser=1)
@@ -28,7 +28,7 @@ Domain-adaptive thermal object detection plays a key role in facilitating visibl
 </div>
 
 
-## Dataset structure:
+### Dataset structure:
 ```sh
 [data]
     ├── IndraEye_eo-ir_split_version2
@@ -62,8 +62,8 @@ Classes list (in same order as class id): 0: "backhoe_loader", 1: "bicycle", 2: 
 * Website Link: [link](https://sites.google.com/view/indraeye).
 
 
-## License
+### License
 This repo is released under the CC BY 4.0 license. Please see the LICENSE file for more information.
 
-## Contact
+### Contact
 For inquiries, please contact: manjunathd1@iisc.ac.in, aniruddhss@iisc.ac.in, prajwalg@iisc.ac.in, sumanthudupa@iisc.ac.in, vssuresh@iisc.ac.in
