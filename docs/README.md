@@ -11,7 +11,7 @@ Domain-adaptive thermal object detection plays a key role in facilitating visibl
 
 <div>
 
-# IndraEye: Infrared Electro-Optical Drone-based Aerial Object Detection Dataset
+## IndraEye: Infrared Electro-Optical Drone-based Aerial Object Detection Dataset
 
 
 [Manjunath D](https://scholar.google.com/citations?user=379B-doAAAAJ&hl=en), [Aniruddh Sikdar](https://scholar.google.com/citations?user=FdgpBuoAAAAJ&hl=en&authuser=1), [Prajwal Gurunath](https://scholar.google.com/citations?user=1D-q8wwAAAAJ&hl=en&oi=ao), [Sumanth Udupa](https://scholar.google.com/citations?user=d3cLdNoAAAAJ&hl=en&oi=ao), [Suresh Sundaram](https://scholar.google.com/citations?user=5iAMbhMAAAAJ&hl=en&authuser=1)
