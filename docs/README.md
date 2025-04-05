@@ -6,7 +6,7 @@
 
 <!-- [![](https://img.shields.io/badge/CVPR-2024-blue)](https://cvpr.thecvf.com/Conferences/2024)
 [![Paper](https://img.shields.io/badge/Paper-arxiv.2403.20126-red)](https://arxiv.org/abs/2403.20126) -->
-[![Website](https://img.shields.io/badge/CVPR-2024-blue)](https://sites.google.com/views/indraeye)
+[![Website](images/airl_logo-1.jpg)](https://sites.google.com/view/indraeye)
 
 [Manjunath D](https://scholar.google.com/citations?user=379B-doAAAAJ&hl=en), [Aniruddh Sikdar](https://scholar.google.com/citations?user=FdgpBuoAAAAJ&hl=en&authuser=1), [Prajwal Gurunath](https://scholar.google.com/citations?user=1D-q8wwAAAAJ&hl=en&oi=ao), [Sumanth Udupa](https://scholar.google.com/citations?user=d3cLdNoAAAAJ&hl=en&oi=ao), [Suresh Sundaram](https://scholar.google.com/citations?user=5iAMbhMAAAAJ&hl=en&authuser=1)
 
