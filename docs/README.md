@@ -147,7 +147,7 @@ python inst_gry.py --coco_json_file /path/to/coco/json --image_directory /path/t
 </div>
 -->
 
-### Dataset structure:
+### IndraEye Dataset structure:
 ```sh
 [data]
     ├── IndraEye_eo-ir_split_version2
