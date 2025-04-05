@@ -5,7 +5,7 @@
 # SAGA: Semantic-Aware Gray color Augmentation for Visible-to-Thermal Domain Adaptation across Multi-View Drone and Ground-Based Vision Systems
 
 <div>
-  
+
 <!-- <a href="https://sites.google.com/view/indraeye">
 <img src="https://github.com/Manjuphoenix/IndraEye/blob/master/images/airl_logo-1.jpg" alt="Paper Link" width="70px">
 </a>&nbsp;&nbsp;&nbsp;&nbsp; -->
@@ -179,6 +179,20 @@ Classes list (in same order as class id): 0: "backhoe_loader", 1: "bicycle", 2: 
 
 * Download dataset from the [link](https://bit.ly/indraeye).
 * Website Link: [link](https://sites.google.com/view/indraeye).
+
+## Citation
+
+If you use our method, code, or results in your research, please consider citing our paper:
+
+```BibTeX
+@article{gurunath2024indraeye,
+  title={IndraEye: Infrared Electro-Optical UAV-based Perception Dataset for Robust Downstream Tasks},
+  author={Gurunath, Prajwal and Udupa, Sumanth and Gandhamal, Aditya and Madhu, Shrikar and Sikdar, Aniruddh and Sundaram, Suresh and others},
+  journal={arXiv preprint arXiv:2410.20953},
+  year={2024}
+}
+
+```
 
 
 ### License
