@@ -64,7 +64,7 @@ Domain-adaptive thermal object detection plays a key role in facilitating visibl
 <div align="center">
   <img src="/images/SAGA.png" alt="SAGA" style="width:60%;">
   <p style="font-size:2px">
-    Domain-adaptive thermal object detection with RGB as the source domain and IR as the target domain. (a) Vanilla CMT on the IndraEye dataset. (b) CMT with SAGA on the IndraEye dataset.
+    Illustration of SAGA augmentation. The process involves extracting objects from the image, converting them to grayscale, and reintegrating them into the original image while preserving background color information.
   </p>
 </div>
 
