@@ -86,7 +86,7 @@ Domain-adaptive thermal object detection plays a key role in facilitating visibl
       </p>
     </td>
     <td align="center">
-      <img src="/images/cmt_pred.png" alt="SAGA" style="height: 83%; width: 83%;">
+      <img src="/images/cmt_pred.png" alt="SAGA" style="height: 80%; width: 80%;">
       <p style="font-size:2px">
     Output predictions to highlight the importance of the SAGA augmentation on CMT algorithm. (a) and (c) shows the increase in false positives while using vanilla CMT. Meanwhile (b) and (d) shows the reduction in false positives when using SAGA with CMT, showcasing its effectiveness.
   </p>
