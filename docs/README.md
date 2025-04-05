@@ -5,7 +5,7 @@
 # SAGA: Semantic-Aware Gray color Augmentation for Visible-to-Thermal Domain Adaptation across Multi-View Drone and Ground-Based Vision Systems
 
 <a href="https://sites.google.com/view/indraeye">
-<img src="https://github.com/Manjuphoenix/IndraEye/blob/master/images/airl_logo.png" alt="Paper Link" width="40px">
+<img src="https://github.com/Manjuphoenix/IndraEye/blob/master/images/airl_logo.png" alt="Paper Link" width="100px">
 </a> 
 
 <a href="https://arxiv.org/pdf/2410.20953">
