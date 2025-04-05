@@ -20,7 +20,7 @@ Domain-adaptive thermal object detection plays a key role in facilitating visibl
 <!--
 ### SAGA
 <img src="/images/SAGA.png" class=center>
--->
+
 
 ### SAGA
 ![Images](/images/SAGA.png)
@@ -31,6 +31,18 @@ Domain-adaptive thermal object detection plays a key role in facilitating visibl
 
 ### Qualitative Comparision
 ![Images](/images/cmt_pred.png)
+-->
+
+<h2>SAGA</h2>
+<div align="center">
+  <img src="/images/SAGA.png" alt="SAGA" style="width:50%;">
+</div>
+
+<h2>Qualitative Comparison</h2>
+<div align="center">
+  <img src="/images/cmt_pred.png" alt="Qualitative Comparison" style="width:50%;">
+</div>
+
 
 </div>
 
