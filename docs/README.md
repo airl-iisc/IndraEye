@@ -185,7 +185,7 @@ Classes list (in same order as class id): 0: "backhoe_loader", 1: "bicycle", 2: 
 This repo is released under the CC BY 4.0 license. Please see the LICENSE file for more information.
 
 ### Contact
-For inquiries, please contact: manjunathd1@iisc.ac.in, aniruddhss@iisc.ac.in, prajwalg@iisc.ac.in, sumanthudupa@iisc.ac.in, vssuresh@iisc.ac.in
+For inquiries, please contact: manjunathd1@iisc.ac.in, aniruddhss@iisc.ac.in, vssuresh@iisc.ac.in
 
 
 ## Citation
