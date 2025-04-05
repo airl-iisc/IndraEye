@@ -69,26 +69,43 @@ Domain-adaptive thermal object detection plays a key role in facilitating visibl
 
 </div>
 
+
+<table>
+  <tr>
+    <th><h2>Qualitative Comparison</h2></th>
+    <th><h2>IndraEye: Infrared Electro-Optical Drone-based Aerial Object Detection Dataset</h2></th>
+  <tr>
+    <td align="center">
+      <img src="/images/cmt_pred.png" alt="SAGA" style="width: 100%;">
+    </td>
+    <td align="center">
+      <img src="/images/eo_ir.jpg" alt="Qualitative Comparison" style="width: 50%; height: 100%">
+    </td>
+  </tr>
+</table>
+
+
+
+<!-- 
 <div>
 
 ## IndraEye: Infrared Electro-Optical Drone-based Aerial Object Detection Dataset
-<!-- > **Abstract:** *Deep neural networks (DNNs) have demonstrated superior performance when trained on well-illuminated environments, given that the images are captured through an Electro-Optical (EO) camera, which offers rich texture content. In critical applications such as aerial surveillance, maintaining consistent reliability of DNNs throughout all times of the day is paramount, including during low-light conditions where EO cameras often struggle to capture relevant details. Furthermore, UAV-based aerial object detection encounters significant scale variability stemming from varying altitudes and slant angles, introducing an additional layer of complexity. Existing approaches consider only illumination change/style variations as the domain shift, while in aerial surveillance, correlation shifts also acts as a hindrance to the performance of DNNs. In this paper we propose a multi-sensor (EO-IR) labelled object detection dataset consisting of 5276 images with 142991 instances covering multiple viewing angles and altitudes, 7 backgrounds and at different times of the day. This dataset serves as an effective resource for UAV-based object detection, facilitating the development of robust DNNs capable of operating round-the-clock.* -->
+> **Abstract:** *Deep neural networks (DNNs) have demonstrated superior performance when trained on well-illuminated environments, given that the images are captured through an Electro-Optical (EO) camera, which offers rich texture content. In critical applications such as aerial surveillance, maintaining consistent reliability of DNNs throughout all times of the day is paramount, including during low-light conditions where EO cameras often struggle to capture relevant details. Furthermore, UAV-based aerial object detection encounters significant scale variability stemming from varying altitudes and slant angles, introducing an additional layer of complexity. Existing approaches consider only illumination change/style variations as the domain shift, while in aerial surveillance, correlation shifts also acts as a hindrance to the performance of DNNs. In this paper we propose a multi-sensor (EO-IR) labelled object detection dataset consisting of 5276 images with 142991 instances covering multiple viewing angles and altitudes, 7 backgrounds and at different times of the day. This dataset serves as an effective resource for UAV-based object detection, facilitating the development of robust DNNs capable of operating round-the-clock.*
 
 </div>
 
 
-<!-- <div align="center"> -->
+<div align="center">
 
-  
-<!-- ![Images](/images/eo_ir.jpg)
+![Images](/images/eo_ir.jpg)
 **Visualization of our EO-IR images**
 </div>
--->
 
 
 <div align="center">
   <img src="/images/eo_ir.jpg" alt="Qualitative Comparison" style="width:50%;">
 </div>
+-->
 
 ### Dataset structure:
 ```sh
