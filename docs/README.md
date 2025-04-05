@@ -182,7 +182,7 @@ Classes list (in same order as class id): 0: "backhoe_loader", 1: "bicycle", 2: 
 
 ## Citation
 
-If you use our method, code, or results in your research, please consider citing our paper:
+If you use our dataset, code, or results in your research, please consider citing our paper:
 
 ```BibTeX
 @article{gurunath2024indraeye,
