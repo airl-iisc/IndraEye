@@ -8,9 +8,7 @@
 Domain-adaptive thermal object detection plays a key role in facilitating visible (RGB)-to-thermal (IR)  adaptation by reducing the need for co-registered image pairs and minimizing reliance on large annotated IR datasets. However, inherent limitations of IR images, such as the lack of color and texture cues, pose challenges for RGB-trained models, leading to increased false positives and poor-quality pseudo-labels. To address this, we propose Semantic-Aware Gray color Augmentation (SAGA), a novel strategy for mitigating color bias and bridging the domain gap by extracting object-level features relevant to IR images. Additionally, to validate the proposed SAGA for drone imagery, we introduce the IndraEye, a multi-sensor (RGB-IR) dataset designed for diverse applications. The dataset contains 5,612 images with 145,666 instances, captured from diverse angles, altitudes, backgrounds, and times of day, offering valuable opportunities for multimodal learning, domain adaptation for object detection and segmentation, and exploration of sensor-specific strengths and weaknesses. IndraEye aims to enhance the development of more robust and accurate aerial perception systems, especially in challenging environments. Experimental results show that SAGA significantly improves RGB-to-IR adaptation for autonomous driving and IndraEye dataset, achieving consistent performance gains of +0.4 to +7.6 when integrated with state-of-the-art domain adaptation techniques. The dataset and codes are available at https://bit.ly/indraeye
 
 <!-- ![Images](/images/SAGA.png) -->
-<div align="center>
-  <img src="/images/SAGA.png" width="500">
-</div>
+<img src="/images/SAGA.png" width="500">
 
 
 ### Qualitative Comparision
