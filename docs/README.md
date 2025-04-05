@@ -9,7 +9,7 @@
 [![Website](https://github.com/Manjuphoenix/IndraEye/blob/master/images/airl_logo-1.jpg)](https://sites.google.com/view/indraeye) -->
 
 <a href="https://sites.google.com/view/indraeye">
-  <img src="https://github.com/Manjuphoenix/IndraEye/blob/master/images/airl_logo-1.jpg" alt="Paper Link" width="100">
+  <img src="https://github.com/Manjuphoenix/IndraEye/blob/master/images/airl_logo-1.jpg" alt="Paper Link" width="80">
 </a>
 
 
