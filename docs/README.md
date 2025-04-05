@@ -180,6 +180,14 @@ Classes list (in same order as class id): 0: "backhoe_loader", 1: "bicycle", 2: 
 * Download dataset from the [link](https://bit.ly/indraeye).
 * Website Link: [link](https://sites.google.com/view/indraeye).
 
+
+### License
+This repo is released under the CC BY 4.0 license. Please see the LICENSE file for more information.
+
+### Contact
+For inquiries, please contact: manjunathd1@iisc.ac.in, aniruddhss@iisc.ac.in, prajwalg@iisc.ac.in, sumanthudupa@iisc.ac.in, vssuresh@iisc.ac.in
+
+
 ## Citation
 
 If you use our dataset, code, or results in your research, please consider citing our paper:
@@ -194,9 +202,3 @@ If you use our dataset, code, or results in your research, please consider citin
 
 ```
 
-
-### License
-This repo is released under the CC BY 4.0 license. Please see the LICENSE file for more information.
-
-### Contact
-For inquiries, please contact: manjunathd1@iisc.ac.in, aniruddhss@iisc.ac.in, prajwalg@iisc.ac.in, sumanthudupa@iisc.ac.in, vssuresh@iisc.ac.in
