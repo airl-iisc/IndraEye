@@ -80,7 +80,7 @@ Domain-adaptive thermal object detection plays a key role in facilitating visibl
       <img src="/images/eo_ir.jpg" alt="Qualitative Comparison" style="width: 100%;">
     </td>
     <td align="center">
-      <img src="/images/cmt_pred.png" alt="SAGA" style="height: 80%; width: 80%;">
+      <img src="/images/cmt_pred.png" alt="SAGA" style="height: 85%; width: 85%;">
     </td>
   </tr>
 </table>
