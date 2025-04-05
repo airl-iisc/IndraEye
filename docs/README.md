@@ -7,7 +7,6 @@
 <a href="https://sites.google.com/view/indraeye">
 <img src="https://github.com/Manjuphoenix/IndraEye/blob/master/images/airl_logo-1.jpg" alt="Paper Link" width="60px">
 </a> 
-
 &nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://arxiv.org/pdf/2410.20953">
 <img src="https://img.shields.io/badge/Paper-arxiv.2403.20126-red" alt="Paper Link" width="170px">
