@@ -1,3 +1,12 @@
+ .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+
 <div>
 
 # SAGA: Semantic-Aware Gray color Augmentation for Visible-to-Thermal Domain Adaptation across Multi-View Drone and Ground-Based Vision Systems
@@ -9,7 +18,7 @@ Domain-adaptive thermal object detection plays a key role in facilitating visibl
 
 <!-- ![Images](/images/SAGA.png) -->
 ### SAGA
-<img align=center src="/images/SAGA.png" width="500">
+<img class=center src="/images/SAGA.png" width="500">
 
 
 ### Qualitative Comparision
