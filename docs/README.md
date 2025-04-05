@@ -77,7 +77,7 @@ Domain-adaptive thermal object detection plays a key role in facilitating visibl
 </div>
 
 
-<div align="center">
+<!-- <div align="center"> -->
 
   
 <!-- ![Images](/images/eo_ir.jpg)
