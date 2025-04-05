@@ -9,7 +9,7 @@
 </a>
 
 <a href="https://arxiv.org/pdf/2410.20953">
-<img src="https://img.shields.io/badge/Paper-arxiv.2403.20126-red" alt="Paper Link" width="100%">
+<img src="https://img.shields.io/badge/Paper-arxiv.2403.20126-red" alt="Paper Link" width="20%">
 </a>
 
 
