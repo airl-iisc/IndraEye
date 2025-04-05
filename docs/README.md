@@ -82,11 +82,17 @@ Domain-adaptive thermal object detection plays a key role in facilitating visibl
 
 
 <div align="center">
+
   
-![Images](/images/eo_ir.jpg)
+<!-- ![Images](/images/eo_ir.jpg)
 **Visualization of our EO-IR images**
 </div>
+-->
 
+
+<div align="center">
+  <img src="/images/eo_ir.jpg" alt="Qualitative Comparison" style="width:50%;">
+</div>
 
 ### Dataset structure:
 ```sh
