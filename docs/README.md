@@ -78,7 +78,7 @@ Domain-adaptive thermal object detection plays a key role in facilitating visibl
   <tr>
     <td align="center">
       <img src="/images/eo_ir.jpg" alt="Qualitative Comparison" style="width: 100%;">
-      <p style="font-size:5px">
+      <p style="font-size:2px">
         IndraEye RGB-IR samples. (a,b): High scale-variation medium altitude with minimal slant-angle during day time.
         (c,d): High scale-variation medium altitude with minimal slant-angle during night time.
         (e,f): High altitude with lesser slant-angle covering a large area.
@@ -87,7 +87,7 @@ Domain-adaptive thermal object detection plays a key role in facilitating visibl
     </td>
     <td align="center">
       <img src="/images/cmt_pred.png" alt="SAGA" style="height: 83%; width: 83%;">
-      <p style="font-size:5px">
+      <p style="font-size:2px">
     Output predictions to highlight the importance of the SAGA augmentation on CMT algorithm. (a) and (c) shows the increase in false positives while using vanilla CMT. Meanwhile (b) and (d) shows the reduction in false positives when using SAGA with CMT, showcasing its effectiveness.
   </p>
     </td>
