@@ -32,8 +32,8 @@ Domain-adaptive thermal object detection plays a key role in facilitating visibl
 
 
 
-#### Download dataset from the [link](https://bit.ly/indraeye).
-#### Website Link: [link](https://sites.google.com/view/indraeye).
+#### Download dataset from [here](https://bit.ly/indraeye).
+#### Project page Link: [link](https://sites.google.com/view/indraeye).
 
 
 ### IndraEye Dataset structure:
