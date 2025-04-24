@@ -131,6 +131,13 @@ Classes list (in same order as class id): 0: "backhoe_loader", 1: "bicycle", 2: 
 
 </div>
 
+# SAGA Usage
+To convert RGB image to instance gray image use the following command:
+```bash
+python inst_gry.py --coco_json_file /path/to/coco/json --image_directory /path/to/images  --inst_gry_directory /path/to/store/images
+
+```
+
 
 <table>
   <tr>
@@ -154,14 +161,6 @@ Classes list (in same order as class id): 0: "backhoe_loader", 1: "bicycle", 2: 
     </td>
   </tr>
 </table>
-
-# SAGA Usage
-To convert RGB image to instance gray image use the following command:
-```bash
-python inst_gry.py --coco_json_file /path/to/coco/json --image_directory /path/to/images  --inst_gry_directory /path/to/store/images
-
-```
-
 
 <!-- 
 <div>
