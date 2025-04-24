@@ -10,7 +10,7 @@
 <img src="https://github.com/Manjuphoenix/IndraEye/blob/master/images/airl_logo-1.jpg" alt="Paper Link" width="70px">
 </a>&nbsp;&nbsp;&nbsp;&nbsp; -->
 
-<a href="https://arxiv.org/pdf/2410.20953">
+<a href="https://arxiv.org/pdf/2504.15728">
 <img src="https://img.shields.io/badge/Paper-arxiv.2403.20126-red" alt="Paper Link" width="190px">
 </a>
 <!-- <img src="https://github.com/Manjuphoenix/IndraEye/blob/master/images/airl_logo-1.jpg" alt="Paper Link" width="60px">
@@ -29,6 +29,39 @@
 [Manjunath D](https://scholar.google.com/citations?user=379B-doAAAAJ&hl=en), [Aniruddh Sikdar](https://scholar.google.com/citations?user=FdgpBuoAAAAJ&hl=en&authuser=1), [Prajwal Gurunath](https://scholar.google.com/citations?user=1D-q8wwAAAAJ&hl=en&oi=ao), [Sumanth Udupa](https://scholar.google.com/citations?user=d3cLdNoAAAAJ&hl=en&oi=ao), [Suresh Sundaram](https://scholar.google.com/citations?user=5iAMbhMAAAAJ&hl=en&authuser=1)
 
 Domain-adaptive thermal object detection plays a key role in facilitating visible (RGB)-to-thermal (IR)  adaptation by reducing the need for co-registered image pairs and minimizing reliance on large annotated IR datasets. However, inherent limitations of IR images, such as the lack of color and texture cues, pose challenges for RGB-trained models, leading to increased false positives and poor-quality pseudo-labels. To address this, we propose Semantic-Aware Gray color Augmentation (SAGA), a novel strategy for mitigating color bias and bridging the domain gap by extracting object-level features relevant to IR images. Additionally, to validate the proposed SAGA for drone imagery, we introduce the IndraEye, a multi-sensor (RGB-IR) dataset designed for diverse applications. The dataset contains 5,612 images with 145,666 instances, captured from diverse angles, altitudes, backgrounds, and times of day, offering valuable opportunities for multimodal learning, domain adaptation for object detection and segmentation, and exploration of sensor-specific strengths and weaknesses. IndraEye aims to enhance the development of more robust and accurate aerial perception systems, especially in challenging environments. Experimental results show that SAGA significantly improves RGB-to-IR adaptation for autonomous driving and IndraEye dataset, achieving consistent performance gains of +0.4 to +7.6 when integrated with state-of-the-art domain adaptation techniques. The dataset and codes are available at https://bit.ly/indraeye
+
+
+
+#### Download dataset from [here](https://bit.ly/indraeye).
+#### Project page Link: [link](https://sites.google.com/view/indraeye).
+
+
+### IndraEye Dataset structure:
+```sh
+[data]
+    ├── IndraEye_eo-ir_split_version3
+       ├── eo
+              ├── train
+                        ├── Annotations (Pascal VOC format)
+                        ├── annotations (COCO json format)
+                        ├── images (.jpg format with individual .json files)
+                        ├── labels (.txt for YOLO format)
+                        ├── labelTxt (.txt for DOTA format)
+              ├── val
+                        (Same as train)
+       ├── ir
+              ├── train
+                        ├── Annotations (Pascal VOC format)
+                        ├── annotations (COCO json format)
+                        ├── images (.jpg format with individual .json files)
+                        ├── labels (.txt for YOLO format)
+                        ├── labelTxt (.txt for DOTA format)
+              ├── val
+                        (Same as train)
+```
+
+Classes list (in same order as class id): 0: "backhoe_loader", 1: "bicycle", 2: "bus", 3: "car", 4: "cargo_trike", 5: "ignore", 6: "motorcycle", 7: "person", 8: "rickshaw", 9: "small_truck", 10: "tractor", 11: "truck", 12: "van"
+
 
 
 <!--
@@ -94,6 +127,13 @@ Domain-adaptive thermal object detection plays a key role in facilitating visibl
 
 </div>
 
+# SAGA Usage
+To convert RGB image to instance gray image use the following command:
+```bash
+python inst_gry.py --coco_json_file /path/to/coco/json --image_directory /path/to/images  --inst_gry_directory /path/to/store/images
+
+```
+
 
 <table>
   <tr>
@@ -118,14 +158,6 @@ Domain-adaptive thermal object detection plays a key role in facilitating visibl
   </tr>
 </table>
 
-# SAGA Usage
-To convert RGB image to instance gray image use the following command:
-```bash
-python inst_gry.py --coco_json_file /path/to/coco/json --image_directory /path/to/images  --inst_gry_directory /path/to/store/images
-
-```
-
-
 <!-- 
 <div>
 
@@ -147,40 +179,6 @@ python inst_gry.py --coco_json_file /path/to/coco/json --image_directory /path/t
 </div>
 -->
 
-### IndraEye Dataset structure:
-```sh
-[data]
-    ├── IndraEye_eo-ir_split_version3
-       ├── eo
-              ├── train
-                        ├── Annotations (Pascal VOC format)
-                        ├── annotations (COCO json format)
-                        ├── images (.jpg format with individual .json files)
-                        ├── labels (.txt for YOLO format)
-                        ├── labelTxt (.txt for DOTA format)
-              ├── val
-                        (Same as train)
-              ├── test
-                        (Same as train)
-       ├── ir
-              ├── train
-                        ├── Annotations (Pascal VOC format)
-                        ├── annotations (COCO json format)
-                        ├── images (.jpg format with individual .json files)
-                        ├── labels (.txt for YOLO format)
-                        ├── labelTxt (.txt for DOTA format)
-              ├── val
-                        (Same as train)
-              ├── test
-                        (Same as train)
-```
-
-Classes list (in same order as class id): 0: "backhoe_loader", 1: "bicycle", 2: "bus", 3: "car", 4: "cargo_trike", 5: "ignore", 6: "motorcycle", 7: "person", 8: "rickshaw", 9: "small_truck", 10: "tractor", 11: "truck", 12: "van"
-
-* Download dataset from the [link](https://bit.ly/indraeye).
-* Website Link: [link](https://sites.google.com/view/indraeye).
-
-
 ### License
 This repo is released under the CC BY 4.0 license. Please see the LICENSE file for more information.
 
@@ -193,11 +191,14 @@ For inquiries, please contact: manjunathd1@iisc.ac.in
 If you use our dataset, code, or results in your research, please consider citing our paper:
 
 ```BibTeX
-@article{gurunath2024indraeye,
-  title={IndraEye: Infrared Electro-Optical UAV-based Perception Dataset for Robust Downstream Tasks},
-  author={Gurunath, Prajwal and Udupa, Sumanth and Gandhamal, Aditya and Madhu, Shrikar and Sikdar, Aniruddh and Sundaram, Suresh and others},
-  journal={arXiv preprint arXiv:2410.20953},
-  year={2024}
+@misc{d2025sagasemanticawaregraycolor,
+      title={SAGA: Semantic-Aware Gray color Augmentation for Visible-to-Thermal Domain Adaptation across Multi-View Drone and Ground-Based Vision Systems}, 
+      author={Manjunath D and Aniruddh Sikdar and Prajwal Gurunath and Sumanth Udupa and Suresh Sundaram},
+      year={2025},
+      eprint={2504.15728},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2504.15728}, 
 }
 
 ```
