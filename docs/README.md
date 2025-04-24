@@ -193,11 +193,14 @@ For inquiries, please contact: manjunathd1@iisc.ac.in
 If you use our dataset, code, or results in your research, please consider citing our paper:
 
 ```BibTeX
-@article{gurunath2024indraeye,
-  title={IndraEye: Infrared Electro-Optical UAV-based Perception Dataset for Robust Downstream Tasks},
-  author={Gurunath, Prajwal and Udupa, Sumanth and Gandhamal, Aditya and Madhu, Shrikar and Sikdar, Aniruddh and Sundaram, Suresh and others},
-  journal={arXiv preprint arXiv:2410.20953},
-  year={2024}
+@misc{d2025sagasemanticawaregraycolor,
+      title={SAGA: Semantic-Aware Gray color Augmentation for Visible-to-Thermal Domain Adaptation across Multi-View Drone and Ground-Based Vision Systems}, 
+      author={Manjunath D and Aniruddh Sikdar and Prajwal Gurunath and Sumanth Udupa and Suresh Sundaram},
+      year={2025},
+      eprint={2504.15728},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2504.15728}, 
 }
 
 ```
