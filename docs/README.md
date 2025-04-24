@@ -49,8 +49,6 @@ Domain-adaptive thermal object detection plays a key role in facilitating visibl
                         ├── labelTxt (.txt for DOTA format)
               ├── val
                         (Same as train)
-              ├── test
-                        (Same as train)
        ├── ir
               ├── train
                         ├── Annotations (Pascal VOC format)
@@ -59,8 +57,6 @@ Domain-adaptive thermal object detection plays a key role in facilitating visibl
                         ├── labels (.txt for YOLO format)
                         ├── labelTxt (.txt for DOTA format)
               ├── val
-                        (Same as train)
-              ├── test
                         (Same as train)
 ```
 
