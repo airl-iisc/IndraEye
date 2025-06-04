@@ -1,4 +1,20 @@
+<div>
 
+# Exiting News!
+📣 📣 Excited to announce the 1st  Challenge on Multi-modal object detection at International conference on Emerging Technology in Autonomous Aerial Vehicles (ETAAV) in August 2025 at IISc, Bangalore
+
+
+This challenge focuses on enhancing the performance on thermal domain without forgetting the visible domain for object detection task that involve:
+👉  Training YOLO model efficiently to utilize both domains effectively.
+👉  Proposing novel methods (such as Domain Adaptation, Domain Generalization) to achieve superior performance.
+
+Looking forward to exciting talks, challenges, and discussions bringing together the vision and robotics communities!
+🗓️ Join us on August 18 at ETAAV 2025 at IISc, Bengaluru.
+🌐 More details: https://sites.google.com/view/etaav2025
+
+Thanks to the amazing organizing team: Manjunath D, Aniruddh Sikdar, Aditya Gandhamal and Samahith !🙌
+
+<div>
 
 <div>
 
