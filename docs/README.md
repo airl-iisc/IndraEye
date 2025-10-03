@@ -207,14 +207,15 @@ For inquiries, please contact: manjunathd1@iisc.ac.in
 If you use our dataset, code, or results in your research, please consider citing our paper:
 
 ```BibTeX
-@InProceedings{D_2025_CVPR,
-    author    = {D, Manjunath and Sikdar, Aniruddh and Gurunath, Prajwal and Udupa, Sumanth and Sundaram, Suresh},
-    title     = {SAGA: Semantic-Aware Gray color Augmentation for Visible-to-Thermal Domain Adaptation across Multi-View Drone and Ground-Based Vision Systems},
-    booktitle = {Proceedings of the Computer Vision and Pattern Recognition Conference (CVPR) Workshops},
-    month     = {June},
-    year      = {2025},
-    pages     = {4578-4588}
+@inproceedings{manjunath2025saga,
+  title={SAGA: Semantic-Aware Gray Color Augmentation for Visible-to-Thermal Domain Adaptation Across Multi-View Drone and Ground-Based Vision Systems},
+  author={Manjunath, D and Sikdar, Aniruddh and Gurunath, Prajwal and Udupa, Sumanth and Sundaram, Suresh},
+  booktitle={2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)},
+  pages={4578--4588},
+  year={2025},
+  organization={IEEE}
 }
+
 
 ```
 
