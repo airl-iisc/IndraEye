@@ -79,6 +79,23 @@ Domain-adaptive thermal object detection plays a key role in facilitating visibl
 Classes list (in same order as class id): 0: "backhoe_loader", 1: "bicycle", 2: "bus", 3: "car", 4: "cargo_trike", 5: "ignore", 6: "motorcycle", 7: "person", 8: "rickshaw", 9: "small_truck", 10: "tractor", 11: "truck", 12: "van"
 
 
+Segmentation masks color code:
+{"car": (0, 63, 255),
+"person": (0, 63, 127),
+"motorcycle": (0, 0, 63),
+"truck": (0, 63, 63),
+"rickshaw": (0, 63, 191),
+"small-truck": (0, 191, 127),
+"bus": (0, 127, 63),
+"bicycle": (0, 63, 0),
+"cargo_trike", (0, 0, 27),
+"van": (0, 100, 155),
+"backhoe_loader": (0, 127, 255),
+"tractor": (0, 127, 191),
+"ignore": (0, 127, 127)
+}
+
+
 
 <!--
 ### SAGA
